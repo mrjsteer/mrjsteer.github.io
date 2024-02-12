@@ -1,0 +1,105 @@
+/*Global variables go below*/
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  font-family: Arial, sans-serif;
+  animation: changeBg 10s linear infinite;
+}
+
+@keyframes changeBg {
+  0% {
+    background-color: blue;
+  }
+  20% {
+    background-color: orange;
+  }
+  40% {
+    background-color: purple;
+  }
+  60% {
+    background-color: red;
+  }
+  80% {
+    background-color: orange;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+/*Thanks to https://bit.ly/cssbganimation1 for the animation tutorial.*/
+
+/*Global variables go above*/
+
+/*Table styling goes below*/
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid white;
+}
+
+th, td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+#a {
+  color: #30D5C8;
+  font-size: 30px;
+}
+
+#b {
+  color: #FF00FF;
+}
+
+.TpFont {
+  font-family: Bedrock;
+  color: #30D5C8;
+}
+
+/*Table styling goes above*/
+
+/*ClasseS, divS and idS go below.*/
+
+#hTop {
+  text-align: center;
+  vertical-align: middle;
+  color: gold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pTop {
+  text-align: center;
+  vertical-align: middle;
+  color: goldenrod;
+  font-family: Century Gothic;
+}
+
+#hFAQ {
+  text-align: center;
+  vertical-align: middle;
+  color: gold;
+  font-family: cursive;
+}
+
+#pInfo {
+  text-align: center;
+  color: goldenrod;
+  font-family: Century Gothic;
+}
+
+.media {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hrS {
+  color: gold;
+  border: 3px solid gold;
+}
+
+/*ClasseS, divS and idS go above.*/

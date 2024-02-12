@@ -1,0 +1,131 @@
+/* Reset some default styles and provide a chic layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-size: 400% 400%;
+    animation: changeBackground 20s infinite linear;
+    color: #333; /* Subtle text color for readability */
+}
+
+@keyframes changeBackground {
+    0% { background: linear-gradient(45deg, #3498db, #5dade2, #85c1e9, #aed6f1); }
+    25% { background: linear-gradient(45deg, #3498db, #5dade2, #85c1e9, #aed6f1); }
+    50% { background: linear-gradient(45deg, #3498db, #5dade2, #85c1e9, #aed6f1); }
+    75% { background: linear-gradient(45deg, #3498db, #5dade2, #85c1e9, #aed6f1); }
+    100% { background: linear-gradient(45deg, #3498db, #5dade2, #85c1e9, #aed6f1); }
+}
+
+/* Center the "About Me" title */
+
+header {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Style for the clickable buttons */
+.nav-button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #3498db; /* Button background color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+    margin-right: 10px; /* Add margin to separate buttons */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Add space between title and buttons */
+}
+
+.nav-button:hover {
+    background-color: #5dade2; /* Button background color on hover */
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.centered-content img {
+    max-width: 200px; /* Adjust the size of your profile photo as needed */
+    border-radius: 50%; /* Creates a circular profile photo */
+    margin: 20px auto; /* Center the photo with margin */
+    display: block; /* Ensure centered alignment */
+}
+
+/* Rest of the CSS remains the same */
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: transparent;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Subtle text color for links */
+    font-weight: bold;
+}
+
+.section-bg {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    color: #333; /* Subtle text color for sections */
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo-gallery img {
+    max-width: 30%;
+    margin: 10px 0;
+    border: 2px solid #333; /* Subtle border for photos */
+    border-radius: 5px;
+}
+
+.photo-item {
+    text-align: center;
+}
+
+.photo-caption {
+    color: #555; /* Caption text color */
+    font-size: 14px; /* Caption font size */
+}
+
+.footer-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+    color: #fff; /* White text color for the footer */
+}
