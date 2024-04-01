@@ -21,7 +21,6 @@ body {
 }
 
 /* Center the "About Me" title */
-
 header {
     background-color: transparent;
     text-align: center;
@@ -30,6 +29,7 @@ header {
 
 h1 {
     font-size: 24px;
+    margin: 0; /* Remove default margin */
 }
 
 /* Style for the clickable buttons */
@@ -41,7 +41,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease; /* Smooth color transition on hover */
-    margin-right: 10px; /* Add margin to separate buttons */
+    margin: 0 5px; /* Adjust margin for buttons */
 }
 
 .button-container {
@@ -65,7 +65,6 @@ h1 {
 }
 
 /* Rest of the CSS remains the same */
-
 
 .container {
     max-width: 1200px;
@@ -128,4 +127,20 @@ nav a {
     text-align: center;
     padding: 10px;
     color: #fff; /* White text color for the footer */
+}
+
+/* Add media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
+
+    .nav-button {
+        font-size: 14px; /* Decrease font size for buttons on smaller screens */
+        padding: 8px 16px; /* Adjust padding for buttons on smaller screens */
+    }
 }
