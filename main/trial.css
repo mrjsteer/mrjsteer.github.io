@@ -38,10 +38,10 @@ h1 {
     color: #fff;
     font-weight: bold;
     background-color: #3498db; /* Button background color */
-    padding: 10px 20px;
+    padding: 12px 24px; /* Increased padding for more space */
     border-radius: 5px;
     transition: background-color 0.3s ease; /* Smooth color transition on hover */
-    margin: 0 5px; /* Adjust margin for buttons */
+    margin: 10px; /* Increased margin for space between buttons */
 }
 
 .button-container {
@@ -142,5 +142,6 @@ nav a {
     .nav-button {
         font-size: 14px; /* Decrease font size for buttons on smaller screens */
         padding: 8px 16px; /* Adjust padding for buttons on smaller screens */
+        margin: 5px; /* Adjust margin for buttons on smaller screens */
     }
 }
