@@ -81,12 +81,24 @@
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-      AOS.init({
-        duration: 800, // Duration of the animation (in milliseconds)
-        once: true // Whether animation should happen only once - while scrolling down
-      });
+        window.addEventListener('scroll', function() {
+            // Get the elements you want to animate
+            const elements = document.querySelectorAll('.animate-on-scroll');
+
+            // Loop through each element
+            elements.forEach(element => {
+                // Check if the element is in the viewport
+                const rect = element.getBoundingClientRect();
+                const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+                const isInViewport = rect.top <= windowHeight && rect.bottom >= 0;
+
+                // If the element is in the viewport, add the animation class
+                if (isInViewport) {
+                    element.classList.add('animate__animated', 'animate__fadeInUp');
+                }
+            });
+        });
     </script>
 
       
