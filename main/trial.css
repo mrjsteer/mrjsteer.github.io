@@ -24,7 +24,7 @@ body {
 header {
     background-color: transparent;
     text-align: center;
-    padding: 40px 0; /* Increased padding for more space */
+    padding: 30px 0; /* Adjusted padding */
 }
 
 h1 {
@@ -38,16 +38,16 @@ h1 {
     color: #fff;
     font-weight: bold;
     background-color: #3498db; /* Button background color */
-    padding: 16px 32px; /* Increased padding for more space */
+    padding: 14px 28px; /* Adjusted padding */
     border-radius: 5px;
     transition: background-color 0.3s ease; /* Smooth color transition on hover */
-    margin: 20px; /* Increased margin for more space between buttons */
+    margin: 15px; /* Adjusted margin */
     display: inline-block; /* Ensure buttons are displayed in a block */
 }
 
 .button-container {
     text-align: center;
-    margin-top: 40px; /* Increased margin for more space between title and buttons */
+    margin-top: 30px; /* Adjusted margin */
 }
 
 .nav-button:hover {
@@ -96,8 +96,8 @@ nav a {
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    padding: 40px; /* Increased padding for more space */
-    margin: 40px 0; /* Increased margin for more space */
+    padding: 30px; /* Adjusted padding */
+    margin: 30px 0; /* Adjusted margin */
     color: #333; /* Subtle text color for sections */
 }
 
@@ -109,7 +109,7 @@ nav a {
 
 .photo-gallery img {
     max-width: 30%;
-    margin: 20px 0; /* Increased margin for more space */
+    margin: 20px 0; /* Adjusted margin */
     border: 2px solid #333; /* Subtle border for photos */
     border-radius: 5px;
 }
@@ -126,7 +126,7 @@ nav a {
 .footer-bg {
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
-    padding: 20px; /* Increased padding for more space */
+    padding: 20px; /* Adjusted padding */
     color: #fff; /* White text color for the footer */
 }
 
