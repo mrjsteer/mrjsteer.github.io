@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* General styles for the body */
 body {
     font-family: 'Helvetica', sans-serif;
     background-size: 400% 400%;
@@ -12,6 +13,7 @@ body {
     color: #333; /* Subtle text color for readability */
 }
 
+/* Keyframes for background animation */
 @keyframes changeBackground {
     0% { background: linear-gradient(45deg, #3498db, #5dade2, #85c1e9, #aed6f1); }
     25% { background: linear-gradient(45deg, #3498db, #5dade2, #85c1e9, #aed6f1); }
@@ -20,44 +22,49 @@ body {
     100% { background: linear-gradient(45deg, #3498db, #5dade2, #85c1e9, #aed6f1); }
 }
 
-/* Center the "About Me" title */
+/* Header styles */
 header {
     background-color: transparent;
     text-align: center;
-    padding: 30px 0; /* Adjusted padding */
+    padding: 25px 0; /* Adjusted padding */
 }
 
+/* Title styles */
 h1 {
     font-size: 24px;
     margin: 0; /* Remove default margin */
 }
 
-/* Style for the clickable buttons */
+/* Navigation button styles */
 .nav-button {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     background-color: #3498db; /* Button background color */
-    padding: 14px 28px; /* Adjusted padding */
+    padding: 12px 24px; /* Adjusted padding */
     border-radius: 5px;
     transition: background-color 0.3s ease; /* Smooth color transition on hover */
-    margin: 15px; /* Adjusted margin */
+    margin: 10px; /* Adjusted margin */
     display: inline-block; /* Ensure buttons are displayed in a block */
 }
 
+/* Container for navigation buttons */
 .button-container {
     text-align: center;
-    margin-top: 30px; /* Adjusted margin */
+    margin-top: 20px; /* Adjusted margin */
 }
 
+/* Hover effect for navigation buttons */
 .nav-button:hover {
     background-color: #5dade2; /* Button background color on hover */
 }
 
+/* Centered content styles */
 .centered-content {
     text-align: center;
 }
 
+/* Profile photo styles */
 .centered-content img {
     max-width: 200px; /* Adjust the size of your profile photo as needed */
     border-radius: 50%; /* Creates a circular profile photo */
@@ -65,18 +72,14 @@ h1 {
     display: block; /* Ensure centered alignment */
 }
 
-/* Rest of the CSS remains the same */
-
+/* Container styles */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-header {
-    background-color: transparent;
-}
-
+/* Navigation styles */
 nav ul {
     list-style-type: none;
 }
@@ -92,15 +95,17 @@ nav a {
     font-weight: bold;
 }
 
+/* Section background styles */
 .section-bg {
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    padding: 30px; /* Adjusted padding */
-    margin: 30px 0; /* Adjusted margin */
+    padding: 25px; /* Adjusted padding */
+    margin: 25px 0; /* Adjusted margin */
     color: #333; /* Subtle text color for sections */
 }
 
+/* Photo gallery styles */
 .photo-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +114,7 @@ nav a {
 
 .photo-gallery img {
     max-width: 30%;
-    margin: 20px 0; /* Adjusted margin */
+    margin: 15px 0; /* Adjusted margin */
     border: 2px solid #333; /* Subtle border for photos */
     border-radius: 5px;
 }
@@ -123,6 +128,7 @@ nav a {
     font-size: 14px; /* Caption font size */
 }
 
+/* Footer styles */
 .footer-bg {
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
@@ -130,7 +136,7 @@ nav a {
     color: #fff; /* White text color for the footer */
 }
 
-/* Add media query for smaller screens */
+/* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
     header {
         padding: 20px 0; /* Adjust padding for smaller screens */
@@ -142,7 +148,7 @@ nav a {
 
     .nav-button {
         font-size: 14px; /* Decrease font size for buttons on smaller screens */
-        padding: 12px 24px; /* Adjust padding for buttons on smaller screens */
-        margin: 10px; /* Adjust margin for buttons on smaller screens */
+        padding: 10px 20px; /* Adjust padding for buttons on smaller screens */
+        margin: 8px; /* Adjust margin for buttons on smaller screens */
     }
 }
